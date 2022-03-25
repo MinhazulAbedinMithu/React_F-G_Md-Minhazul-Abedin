@@ -45,7 +45,6 @@ const FeedbackTab = () => {
 	};
 
 	const data = getValues();
-	console.log("Form Values", data);
 
 	const tableInstance = useTable({ columns, data });
 

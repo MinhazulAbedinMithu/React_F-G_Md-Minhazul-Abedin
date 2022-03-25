@@ -134,12 +134,13 @@ const FormTab = () => {
 					<h2 className="text-4xl font-bold text-yellow-300 text-center">
 						Thank you for completing the information
 					</h2>
-					<button
+					<a
+						href="/"
 						className="text-xl bg-rose-700 text-teal-400 rounded-lg px-6 font-bold text py-2"
 						onClick={() => setSubFeed(false)}
 					>
 						Dismiss
-					</button>
+					</a>
 				</div>
 			)}
 		</div>
